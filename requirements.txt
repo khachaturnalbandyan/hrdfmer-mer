@@ -1,0 +1,10 @@
+# Core training/inference (model/, train.py, evaluate.py, predict.py)
+torch>=2.1
+numpy>=1.24
+
+# Feature extraction only (preprocess.py, predict.py's ASR/embedding step)
+transformers>=4.35
+librosa>=0.10
+
+# predict.py's ASR step uses transformers' pipeline() with a Whisper checkpoint,
+# which is pulled in automatically by transformers - no separate package needed.

@@ -1,0 +1,39 @@
+# Data (MELD raw/derived files - never commit these; see README for how to obtain/build them)
+data/
+*.wav
+*.mp4
+*.npy
+MELD.Raw/
+
+# Checkpoints and logs (large binaries / run artifacts - use Releases or Hugging Face Hub instead)
+checkpoints/
+*.pt
+*.pth
+*.npz
+training_log*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+.mypy_cache/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Hugging Face / torch caches, if ever created locally
+.cache/
