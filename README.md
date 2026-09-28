@@ -1,4 +1,4 @@
-# HRDF-MER (unofficial PyTorch reimplementation)
+# HRDF-MER (PyTorch reimplementation)
 
 An independent, unofficial reimplementation of **HRDF-MER**: *"Hierarchical
 feature refinement and cascaded dynamic fusion for multimodal emotion
